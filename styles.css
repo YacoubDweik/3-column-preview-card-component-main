@@ -100,6 +100,10 @@ main {
 
 @media (min-width: 768px) {
   main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
     width: min(95%, 921px);
     display: flex;
     justify-content: center;
